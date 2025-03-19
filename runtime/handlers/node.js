@@ -225,7 +225,7 @@ export const useNodeHandler = () => {
                          * with cross platform builds. This can be removed once sharp
                          * releases a new version with the fix.
                          */
-                        cmd.push("--force sharp@0.32.6");
+                        cmd.push("--force sharp@0.33.5");
                         /**
                          * Once the above issue is resolved, the code below can be used.
                          */
